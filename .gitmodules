@@ -1,0 +1,15 @@
+[submodule "vendor/agent-skills"]
+	path = vendor/agent-skills
+	url = https://github.com/addyosmani/agent-skills.git
+[submodule "vendor/context7"]
+	path = vendor/context7
+	url = https://github.com/upstash/context7.git
+[submodule "vendor/graphify"]
+	path = vendor/graphify
+	url = https://github.com/Graphify-Labs/graphify.git
+[submodule "vendor/magic-mcp"]
+	path = vendor/magic-mcp
+	url = https://github.com/21st-dev/magic-mcp.git
+[submodule "vendor/strix"]
+	path = vendor/strix
+	url = https://github.com/usestrix/strix.git

@@ -1,0 +1,7 @@
+{
+  "name": "mindmap-planner",
+  "version": "1.0.0",
+  "description": "Turn a goal or plan into a Mermaid mindmap and an interactive HTML mindmap (Markmap).",
+  "author": { "name": "Amer" },
+  "keywords": ["mindmap", "planning", "visualization", "mermaid", "markmap"]
+}

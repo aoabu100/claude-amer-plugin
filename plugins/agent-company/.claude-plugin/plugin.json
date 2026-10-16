@@ -1,0 +1,7 @@
+{
+  "name": "agent-company",
+  "version": "1.0.0",
+  "description": "A five-agent team — planner, researcher, writer, developer, reviewer — each with preloaded skills and handoff notes.",
+  "author": { "name": "Amer" },
+  "keywords": ["agents", "team", "planning", "workflow"]
+}

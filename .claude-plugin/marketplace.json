@@ -1,0 +1,19 @@
+{
+  "name": "claude-amer",
+  "owner": { "name": "Amer" },
+  "metadata": { "description": "AI agent company and mindmap planner plugins for Claude Code" },
+  "plugins": [
+    {
+      "name": "mindmap-planner",
+      "source": "./plugins/mindmap-planner",
+      "description": "Turn any goal into a Mermaid mindmap plus an interactive HTML mindmap (Markmap).",
+      "version": "1.0.0"
+    },
+    {
+      "name": "agent-company",
+      "source": "./plugins/agent-company",
+      "description": "A five-agent team (planner, researcher, writer, developer, reviewer) with preloaded skills.",
+      "version": "1.0.0"
+    }
+  ]
+}
