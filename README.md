@@ -9,7 +9,7 @@ Two plugins:
 
 ## Install (share these two lines)
 ```
-/plugin marketplace add <your-github-user>/claude-amer-plugin
+/plugin marketplace add aoabu100/claude-amer-plugin
 /plugin install mindmap-planner@claude-amer
 /plugin install agent-company@claude-amer
 ```
@@ -26,7 +26,6 @@ plugins/
   mindmap-planner/   .claude-plugin/plugin.json  skills/  commands/  scripts/
   agent-company/     .claude-plugin/plugin.json  agents/  skills/    commands/
 ```
-Private repo. Replace `<your-github-user>` above with your GitHub username.
 
 ## Companion tools (install separately, once)
 The agent-company plugin ships a `tool-routing` skill and an `.mcp.json` that expect these. Each is optional; agents skip what's missing.
@@ -38,6 +37,3 @@ The agent-company plugin ships a `tool-routing` skill and an `.mcp.json` that ex
 | [Graphify](https://github.com/Graphify-Labs/graphify) | Codebase → knowledge graph + interactive `graph.html` | `uv tool install graphifyy && graphify install`, then `/graphify .` |
 | [21st Magic MCP](https://21st.dev/mcp) | UI components from a prompt (`/ui ...`) | In `.mcp.json`; set `MAGIC_API_KEY` from 21st.dev |
 | [Strix](https://github.com/usestrix/strix) | AI pentesting agents (needs Docker) | `pipx install strix-agent`, then `strix --target <your app>` — only on systems you own |
-
-## vendor/ — companion repos as submodules
-Pulled from their own GitHub repos; run `git submodule update --init --depth 1` after cloning to fetch them.
